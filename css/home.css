@@ -1,7 +1,5 @@
-
-
 body {
-    font-family:  sans-serif, 'Verdana';
+    font-family: sans-serif, 'Verdana';
     background: rgba(226, 226, 226, 1);
     padding: 2%;
     margin: 1%;
@@ -13,43 +11,40 @@ h3 {
     font-family: 'Bungee', cursive;
 }
 
-header h2{
-    
-    width:100%;
-    text-align:center;
-    
+header h2 {
+    width: 100%;
+    text-align: center;
 }
 
-
-.main{
- width:100%;   
+.main {
+    width: 100%;
 }
 
 #Photo {
-       min-width:600px;
-    min-height:400px;
-   max-width:600px;
-    max-height:400px;
+    min-width: 600px;
+    min-height: 400px;
+    max-width: 600px;
+    max-height: 400px;
     border-radius: 10px;
     border: 6px solid #305A72;
 }
+
 #about h2 {
- text-align: center;   
+    text-align: center;
 }
-#about p{
-    
+
+#about p {
     text-align: center;
     font-family: 'lobster', cursive;
     font-size: larger;
     line-height: 2.2em;
-    
 }
 
 footer {
     clear: both;
     overflow: auto;
     border-radius: .4em;
-    background-color:#000000;
+    background-color: #000000;
 }
 
 .center {
@@ -57,16 +52,13 @@ footer {
     width: 50%;
 }
 
-#quote p{
-    
+#quote p {
     text-align: center;
     font-family: 'lobster', cursive;
     font-size: larger;
     line-height: 2.2em;
-    
 }
 
 #quote h2 {
- text-align: center;   
+    text-align: center;
 }
-

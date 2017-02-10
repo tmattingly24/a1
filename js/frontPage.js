@@ -1,6 +1,6 @@
 $(document).ready(function () {
     'use strict';
-    var images = ['img/allsitting.jpg', 'img/allstanding.jpg','img/meandcrystal.jpg','img/meandtimmy.jpg'];
+    var images = ['img/allsitting.jpg', 'img/allstanding.jpg', 'img/meandcrystal.jpg', 'img/meandtimmy.jpg'];
     var i = 0;
 
     function changeBackground() {
@@ -11,8 +11,6 @@ $(document).ready(function () {
             return 'url(' + images[i++] + ')';
         });
     }
-    
     changeBackground();
-
     setInterval(changeBackground, 8000);
 });
